@@ -1,7 +1,12 @@
 import './bootstrap';
 
-import Alpine from 'alpinejs';
 
-window.Alpine = Alpine;
+import { createApp } from "vue";
+import router from './router'
+import EventsIndex from './../components/events/EventsIndex'
 
-Alpine.start();
+createApp({
+    components: {
+        EventsIndex
+    }
+}).use(router).mount('#app')
