@@ -20,6 +20,7 @@
         "tailwindcss": "^3.1.0"
     },
     "dependencies": {
+        "@hennge/vue3-pagination": "^1.0.17",
         "vue": "^3.2.36",
         "vue-loader": "^17.0.0",
         "vue-router": "^4.0.13"
